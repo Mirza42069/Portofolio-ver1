@@ -4,14 +4,14 @@
   --primaryTextColor: #ffcaca; /* Untuk title atau judul */
   --secondaryTextColor: #ffffff; /* Untuk text biasa seperti paragraph contohnya */
 
-  --borderColor: #ffffff;
+  --borderColor: #000000;
   --lineColor: #ffffff; /* untuk line di pre-title */
 
   --primaryBackgroundColor: #130820;
-  --secondaryBackgroundColor: #130820;
+  --secondaryBackgroundColor: #000000;
   --thirdBackgroundColor: #f5f3fe;
 
-  --primaryIconColor: #8abdff;
+  --primaryIconColor: #ffffff;
   --primaryIconColorHover: #5d51e8;
 
   --sectionPadding: 6rem 0;
@@ -28,7 +28,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--primaryBackgroundColor);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 h1,
