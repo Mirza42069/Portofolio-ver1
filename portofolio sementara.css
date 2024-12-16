@@ -187,13 +187,14 @@ a {
 .portfolio img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .portfolio video {
   width: 100%;
   height: 100%;
-  object-fit: var(--primaryIconColorHover);
+  display: flex;
+  object-fit: fill;
 }
 
 
