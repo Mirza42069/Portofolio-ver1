@@ -7,8 +7,8 @@
   --borderColor: #ffffff;
   --lineColor: #ffffff; /* untuk line di pre-title */
 
-  --primaryBackgroundColor: #130820ee;
-  --secondaryBackgroundColor: #080c24;
+  --primaryBackgroundColor: #130820;
+  --secondaryBackgroundColor: #130820;
   --thirdBackgroundColor: #f5f3fe;
 
   --primaryIconColor: #8abdff;
@@ -189,6 +189,13 @@ a {
   height: 100%;
   object-fit: cover;
 }
+
+.portfolio video {
+  width: 100%;
+  height: 100%;
+  object-fit: var(--primaryIconColorHover);
+}
+
 
 .portfolio-info {
   padding: 2rem 1.5rem;
